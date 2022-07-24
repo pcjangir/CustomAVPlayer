@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9C3D9881288C614900EF4651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D9880288C614900EF4651 /* AppDelegate.swift */; };
-		9C3D9883288C614900EF4651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D9882288C614900EF4651 /* SceneDelegate.swift */; };
 		9C3D9885288C614900EF4651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D9884288C614900EF4651 /* ViewController.swift */; };
 		9C3D9888288C614900EF4651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D9886288C614900EF4651 /* Main.storyboard */; };
 		9C3D988A288C614D00EF4651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D9889288C614D00EF4651 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		9C3D987D288C614900EF4651 /* CustomAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3D9880288C614900EF4651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C3D9882288C614900EF4651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C3D9884288C614900EF4651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C3D9887288C614900EF4651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C3D9889288C614D00EF4651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				9C3D9880288C614900EF4651 /* AppDelegate.swift */,
-				9C3D9882288C614900EF4651 /* SceneDelegate.swift */,
 				9C3D9884288C614900EF4651 /* ViewController.swift */,
 				9C3D9886288C614900EF4651 /* Main.storyboard */,
 				9C3D9889288C614D00EF4651 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				9C3D9885288C614900EF4651 /* ViewController.swift in Sources */,
 				9C3D9881288C614900EF4651 /* AppDelegate.swift in Sources */,
-				9C3D9883288C614900EF4651 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +293,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +303,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +322,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
